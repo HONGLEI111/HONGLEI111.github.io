@@ -1,4 +1,4 @@
-var posts=["2024/07/23/My-New-Post/","2024/07/04/hello-world/","2024/07/24/vim/"];function toRandomPost(){
+var posts=["2024/07/23/My-New-Post/","2024/07/04/hello-world/","2024/07/24/vim/","2024/07/29/vuepage/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
