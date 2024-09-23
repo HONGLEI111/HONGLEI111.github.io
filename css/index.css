@@ -371,6 +371,9 @@ hr:before,
 .anzhiyu-shake:hover {
   animation: shake 0.8s;
 }
+.avatar-img {
+  animation: avatar_turn_around 2s linear infinite;
+}
 .reward-main {
   animation: donate_effcet 0.3s 0.1s ease both;
 }
