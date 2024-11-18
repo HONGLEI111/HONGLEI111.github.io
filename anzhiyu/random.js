@@ -1,4 +1,4 @@
-var posts=["2024/07/23/My-New-Post/","2024/09/19/hello-world/","2024/07/24/vim/","2024/07/29/vuepage/","2024/09/12/防火墙/"];function toRandomPost(){
+var posts=["2024/07/23/My-New-Post/","2024/09/19/hello-world/","2024/07/24/vim/","2024/07/29/vuepage/","2024/09/12/防火墙/","2024/11/18/JavaScrip-optimize-site/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
