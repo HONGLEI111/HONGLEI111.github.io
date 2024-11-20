@@ -1,4 +1,4 @@
-var posts=["undefined/文档/JavaScrip-optimize-site/","undefined/原创/软件/PC/My-New-Post/","undefined/uncategorized/hello-world/","undefined/文档/vim/","undefined/uncategorized/vuepage/","undefined/文档/防火墙/"];function toRandomPost(){
+var posts=["original/software/PC/My-New-Post/","original/hello-world/","documents/vim/","documents/JavaScrip-optimize-site/","documents/firewall/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
